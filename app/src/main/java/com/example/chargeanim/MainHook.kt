@@ -8,7 +8,7 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage
 
 class MainHook : IXposedHookLoadPackage {
 
-    private val STYLE = 2
+    private val STYLE = 1
     private val DISABLE_ANIMATION = false
 
     override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam) {
